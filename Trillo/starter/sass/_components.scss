@@ -89,7 +89,7 @@
   &__icon {
     height: 2.25rem;
     width: 2.25rem;
-    fill: var(--color-grey-dark-2);
+    fill: var(--color-grey-dark-1);
   }
 
   &__notification {
@@ -105,6 +105,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  &__user-name {
+    color: var(--color-grey-dark-1)
   }
 
   &__user-photo {
